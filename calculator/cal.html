@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <style>
+        td{
+            text-align: center;
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+       <input type="text" id="view"><br><br>
+    <div>
+       <table>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td><button type="button" name="btn" value="1" onclick="getValue(this.value)">1</button></td>
+            <!-- this is the parameter now -->
+            <td><button type="button" name="btn" value="2" onclick="getValue(this.value)">2</button></td>
+            <td><button type="button" name="btn" value="3" onclick="getValue(this.value)">3</button></td>
+            <td><button type="button" name="op" value="+" onclick="getValue(this.value)">+</button></td>
+        </tr>
+        <tr>
+            <td><button type="button" name="btn" value="4" onclick="getValue(this.value)">4</button></td>
+            <td><button type="button" name="btn" value="5" onclick="getValue(this.value)">5</button></td>
+            <td><button type="button" name="btn" value="6" onclick="getValue(this.value)">6</button></td>
+            <td><button type="button" name="op" value="-" onclick="getValue(this.value)">-</button></td>
+        </tr>
+        <tr>
+            <td><button type="button" name="btn" value="7" onclick="getValue(this.value)">7</button></td>
+            <td><button type="button" name="btn" value="8" onclick="getValue(this.value)">8</button></td>
+            <td><button type="button" name="btn" value="9" onclick="getValue(this.value)">9</button></td>
+            <td><button type="button" name="op" value="*" onclick="getValue(this.value)">*</button></td>
+        </tr>
+        <tr>
+            <td><button type="button" name="btn" value="AC" onclick="Delete()">AC</button></td>
+            <td><button type="button" name="btn" value="0" onclick="getValue(this.value)">0</button></td>
+            <td><button type="button" name="btn" value="=" onclick="result()">=</button></td>
+            <td><button type="button" name="op" value="/" onclick="getValue(this.value)">/</button></td>
+        </tr>
+       </table>
+    </div>
+    <Script src="lator.js"></Script>
+</body>
+
+</html>

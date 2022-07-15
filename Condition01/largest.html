@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Check a&b</title>
+</head>
+
+<body>
+<p>Enter number a </p>
+<input id="numa" type="text">
+<p>Enter number b </p>
+<input id="numb" type="text">
+<p>Enter number c </p>
+<input id="numc" type="text">
+<button onclick="check()">check</button>
+<p id="demo"></p>
+<script>
+    function check(){
+        let a= document.getElementById("numa").value;
+        let b= document.getElementById("numb").value;
+        let c= document.getElementById("numc").value;
+        if(a>b&&a>c){
+        document.getElementById("demo").innerHTML= "a largest number";
+        }else if(b>a&&b>c){
+        document.getElementById("demo").innerHTML= "b is largest number";
+        }else{
+        document.getElementById("demo").innerHTML= "c is largest number";
+        }
+    }
+</script>
+</body>
+
+</html>

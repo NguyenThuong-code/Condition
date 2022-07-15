@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Check age</title>
+</head>
+
+<body>
+    <p>Enter age</p>
+<input id="numa" type="text">
+<button onclick="check()">check</button>
+<p id="demo"></p>
+<script>
+    function check(){
+        let a= document.getElementById("numa").value;
+    
+    if(a>12){
+    document.getElementById("demo").innerHTML= "du tuoi hoc lop 10";
+    }else{
+        document.getElementById("demo").innerHTML= "khong du tuoi hoc lop 10";
+    }
+    }
+</script>
+</body>
+
+</html>

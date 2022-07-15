@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Check 0</title>
+</head>
+
+<body>
+    <p>Enter number</p>
+<input id="numa" type="text">
+<button onclick="check()">check</button>
+<p id="demo"></p>
+<script>
+    function check(){
+        let a= document.getElementById("numa").value;
+    
+    if(a>0){
+    document.getElementById("demo").innerHTML= "lon hon 0";
+    }else{
+        document.getElementById("demo").innerHTML= "nho hon 0";
+    }
+    }
+</script>
+</body>
+
+</html>

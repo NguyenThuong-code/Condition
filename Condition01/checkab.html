@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Check a&b</title>
+</head>
+
+<body>
+    <p>Enter number a </p>
+<input id="numa" type="text">
+<p>Enter number b </p>
+<input id="numb" type="text">
+<button onclick="check()">check</button>
+<p id="demo"></p>
+<script>
+    function check(){
+        let a= document.getElementById("numa").value;
+    let b= document.getElementById("numb").value;
+    if(a%b==0){
+document.getElementById("demo").innerHTML= "a chia het cho b";
+    }else{
+        document.getElementById("demo").innerHTML= "a khong chia het cho b";
+    }
+    }
+</script>
+</body>
+
+</html>

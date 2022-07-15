@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<body onkeydown="moveSelection(event)">
+    <!-- Sự kiện onload có ý nghĩa rằng khi trình duyệt đã load xong mọi thứ (image, js, css) 
+    thì những đoạn code nằm bên trong đó mới được chạy.
+     Có một lưu ý rằng nếu bạn sử dụng onload cho một thẻ HTML nào đó thì nó sẽ có tác dụng với thẻ HTML đó thôi
+      nhưng nếu bạn dùng cho window thì nó sẽ có tác dụng cho toàn trang. -->
+    <img id="nobita" src="https://upload.wikimedia.org/wikipedia/vi/2/2c/Nobita.png" style="position:absolute;left:0; top:0;" height="100" width="80"/>
+ <script src="go.js"></script>
+<!-- 
+ keydown xẩy ra khi bạn nhấn xuống (press down) một phím (key).
+
+ giữ cho phím ở trạng thái bị nhấn nó sẽ liên tục phát ra các sự kiện keypress 
+ nhấn xuống (press down) một phím và nhanh chóng nhả ra (release) 
+
+ Sự kiện keyup xẩy ra khi bạn nhả (release) ra khỏi một phím. -->
+</body>
+
+</html>
